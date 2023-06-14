@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Sistema de login com flask.</h1>
+    <a href="{{ url_for('login') }}">Login Page</a><br> <!-- o url for permite que, ao clicar no botao, seremos direcionados para a rota desejada-->
+    <a href="{{ url_for('register') }}">Register Page</a><br>
+
+    <h1>Como acessar o site?</h1>
+    <p>
+        1. Crie e ative o ambiente virtual.<br> 
+        2. Faça a instalação dos requerimentos.<br> 
+        3. Em um terminal, use o comando "streamlit run dashboard.py".<br> 
+        4. Em um novo terminal (cmd), com o ambiente virtual ativado, rode a aplicação flask nomeada "app.py"<br> 
+        5. Crie um registro e logue para acessar o dashboard!
+    </p>
+
+</body>
+
+</html>
